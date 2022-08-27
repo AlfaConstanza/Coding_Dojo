@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Resetea css, ya que hay navegadores que tienen estilos propios, afectando como se ve la página */
+.container {
+  margin: 2% auto;
+}
+/* el 2% se aplica arriba y abajo. auto centra */
+h1 {
+  color: blueviolet;
+}
+
+#subtitle {
+  color: aqua;
+}

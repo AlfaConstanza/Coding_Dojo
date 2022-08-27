@@ -1,0 +1,55 @@
+/*CSS reset settings here*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper {
+  width: 950px;
+  background-color: silver;
+  margin: 1% auto;
+  padding: 18px;
+}
+
+#header {
+  min-height: 150px;
+  background-color: green;
+  margin-bottom: 18px;
+}
+
+#navigation {
+  min-height: 300px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block; /* esta prop. me permite que los cuadros amarillo y rojo se ubiquen al lado dcho de este */
+  vertical-align: top; /* el rectángulo queda arriba*/
+  margin-right: 18px;
+}
+
+#main_content {
+  min-height: 400px;
+  width: 700px;
+  background-color: red;
+  display: inline-block;
+  padding: 14px;
+}
+
+.subcontents {
+  min-height: 180px;
+  width: 200px;
+  background-color: yellow;
+  display: inline-block;
+  margin-right: 9px;
+  padding: 1%;
+}
+
+#advertisement {
+  min-height: 120px;
+  width: 669px;
+  background-color: purple;
+  margin-top: 24px;
+}
+
+/* como se trabajaron los bloques: 1. gris, 2. rojo, 3.azul, 4. amarillos y 5.burdeo (tener muy presentes los padding, ya que son claves pàra que las figuras queden en la posición del png)*/
+
+/* Sonríe!! <3 */
